@@ -30,7 +30,7 @@ public class ZHStringUtilTest {
 	 */
 	@Test
 	public void testGetZHString() {
-		
+			//测试随机中文字符串
 			String zhString = ZHStringUtil.getZHString(12);
 			System.out.println(zhString);
 		
@@ -41,6 +41,7 @@ public class ZHStringUtilTest {
 	 */
 	@Test
 	public void testGetZHName() {
+		//测试姓名
 		for(int i=0;i<100;i++){
 			String zhName = ZHStringUtil.getZHName();
 			System.out.println(zhName);
