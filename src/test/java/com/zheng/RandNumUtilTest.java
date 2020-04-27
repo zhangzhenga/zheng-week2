@@ -15,6 +15,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.zhangzheng.common.utils.RandNumUtil;
+
 /** 
  * @ClassName: RandNumUtilTest 
  * @Description: TODO
@@ -24,7 +26,7 @@ import org.junit.Test;
 public class RandNumUtilTest {
 
 	/**
-	 * Test method for {@link com.zheng.RandNumUtil#getValue(double, double, int)}.
+	 * Test method for {@link com.zhangzheng.common.utils.RandNumUtil#getValue(double, double, int)}.
 	 */
 	//测试返回随机小数
 	@Test
@@ -38,7 +40,7 @@ public class RandNumUtilTest {
 	}
 	//测试返回随机整数
 	/**
-	 * Test method for {@link com.zheng.RandNumUtil#random(int, int)}.
+	 * Test method for {@link com.zhangzheng.common.utils.RandNumUtil#random(int, int)}.
 	 */
 	@Test
 	public void testRandom() {

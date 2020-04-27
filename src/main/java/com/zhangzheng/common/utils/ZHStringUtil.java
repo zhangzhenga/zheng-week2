@@ -9,7 +9,7 @@
  * @date: 2020年4月27日 上午9:12:19 
  * @version: V1.0   
  */
-package com.zheng;
+package com.zhangzheng.common.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;

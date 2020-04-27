@@ -15,6 +15,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.zhangzheng.common.utils.ZHStringUtil;
+
 /**
  * @ClassName: ZHStringUtilTest
  * @Description: TODO
@@ -24,7 +26,7 @@ import org.junit.Test;
 public class ZHStringUtilTest {
 
 	/**
-	 * Test method for {@link com.zheng.ZHStringUtil#getZHString(int)}.
+	 * Test method for {@link com.zhangzheng.common.utils.ZHStringUtil#getZHString(int)}.
 	 */
 	@Test
 	public void testGetZHString() {
@@ -35,7 +37,7 @@ public class ZHStringUtilTest {
 	}
 
 	/**
-	 * Test method for {@link com.zheng.ZHStringUtil#getZHName()}.
+	 * Test method for {@link com.zhangzheng.common.utils.ZHStringUtil#getZHName()}.
 	 */
 	@Test
 	public void testGetZHName() {
